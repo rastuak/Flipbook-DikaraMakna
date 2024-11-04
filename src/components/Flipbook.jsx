@@ -19,7 +19,7 @@ function Flipbook(props) {
 
   return (
     <Document
-      file="./fikra.pdf"
+      file="./fikra1.pdf"
       onLoadSuccess={onDocumentLoadSuccess}
       className='fixed top-0 left-0 w-full h-full bg-white z-50 flex flex-col justify-center items-center overflow-visible lg:overflow-hidden min-w-0 min-h-0 scale-75 lg:scale-100'
     >
