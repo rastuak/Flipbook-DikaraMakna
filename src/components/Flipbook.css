@@ -1,0 +1,20 @@
+.flipbook-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh; /* Or any other max height you prefer */
+    overflow: hidden;
+}
+
+.responsive-flipbook {
+    width: 90%; /* Or any percentage for width relative to container */
+    max-width: 600px; /* Optional max width for larger screens */
+    height: auto; /* Automatically scales height */
+}
+
+@media (max-width: 768px) {
+    .responsive-flipbook {
+        width: 80%; /* Adjust width for smaller screens */
+    }
+}
